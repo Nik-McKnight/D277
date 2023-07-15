@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
 import Seal from "./Seal";
@@ -272,20 +271,6 @@ function App() {
         ></Route>
       </Routes>
       <footer></footer>
-      {/* <Header />
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<HomePage />}></Route>
-        <Route path="/login" element={<LoginPage />}></Route>
-        <Route path="/account" element={<Account />}></Route>
-        <Route path="/admin" element={<Admin />}></Route>
-        <Route path="/update" element={<Update />}></Route>
-        <Route path="/reboot" element={<Reboot />}></Route>
-        <Route path="/help" element={<Help />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/termsOfService" element={<ToS />}></Route>
-      </Routes>
-      <Footer /> */}
     </div>
   );
 }

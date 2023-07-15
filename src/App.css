@@ -98,6 +98,7 @@ nav {
   width: 90%;
   margin-bottom: 50px;
   flex-wrap: wrap;
+  gap: 25px;
 }
 
 .stateContent {
@@ -113,6 +114,22 @@ nav {
   flex-basis: 40%;
   background-color: var(--secondary);
   color: var(--quaternary);
+}
+
+.cityContent {
+  min-width: 400px;
+  flex-basis: 65%;
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 10px;
+}
+
+.cityAside {
+  min-width: 300px;
+  flex-basis: 100%;
+  background-color: var(--secondary);
+  color: var(--quaternary);
+  padding: 10px;
 }
 
 .trivia {
@@ -185,4 +202,13 @@ a {
 
 .cityImage {
   width: 400px;
+  height: 400px;
+}
+
+form {
+  background-color: var(--quaternary);
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

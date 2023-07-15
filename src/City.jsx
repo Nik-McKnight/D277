@@ -14,9 +14,13 @@ export default function City({
     <div className="Page">
       <h2>{name}</h2>
       <div className="Content">
-        <section className="cityContent">{blurb}</section>
+        <section className="cityContent">
+          <h3>Blurb</h3>
+          {blurb}
+        </section>
         {image}
         <aside className="cityAside">
+          <h3>Quick Facts</h3>
           <p>Population: {population}</p>
           <p>Year Incorporated: {yearInc}</p>
           <p>Region: {region}</p>
