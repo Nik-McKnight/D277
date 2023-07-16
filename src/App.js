@@ -34,6 +34,7 @@ function App() {
       </nav>
       <Routes>
         <Route path="/" element={<State />}></Route>
+        <Route path="/D277" element={<State />}></Route>
         <Route
           path="/DesMoines"
           element={
