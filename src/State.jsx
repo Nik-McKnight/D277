@@ -1,5 +1,6 @@
 import React from "react";
 import landscape from "./images/Landscape.jpg";
+import Question from "./Question";
 
 export default function State() {
   return (
@@ -137,35 +138,7 @@ export default function State() {
             </a>
           </div>
         </aside>
-        <form>
-          <label for="fname">First name:</label>
-          <input type="text" id="fname" name="fname" value="Enter first name" />
-          <label for="lname">Last name:</label>
-          <input type="text" id="lname" name="lname" value="Enter last name" />
-          <label for="email">Email:</label>
-          <input
-            type="text"
-            id="email"
-            name="email"
-            value="Enter email address"
-          />
-          <label for="confirm">Confirm Email:</label>
-          <input
-            type="text"
-            id="confirm"
-            name="confirm"
-            value="Confirm email address"
-          />
-          {/* {email === confirm ? "Emails match" : "Emails do not match"} */}
-          <label for="question">Question:</label>
-          <input
-            type="textarea"
-            id="question"
-            name="question"
-            value="Ask your question"
-          />
-          <input type="submit" value="Submit" />
-        </form>
+        <Question />
       </div>
     </div>
   );
